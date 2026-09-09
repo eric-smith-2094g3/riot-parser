@@ -37,3 +37,5 @@ python -m riot_parser --input logs\repeater.log --node-id 0x2a --sqlite weather.
 Binary frames prefixed with `PKT:` get unpacked using the frame layout from our RIOT firmware (`pkt_type`, `seq`, `temp_centi`, `humidity_centi`, `pressure_pa`, `batt_mv`, `crc16`). Frames failing CRC are dropped with a warning to stderr.
 
 If you don't pass `--output` or `--sqlite`, it prints JSON lines straight to stdout.
+
+<!-- last-sync: 2026-09-09 -->
