@@ -38,4 +38,4 @@ Binary frames prefixed with `PKT:` get unpacked using the frame layout from our 
 
 If you don't pass `--output` or `--sqlite`, it prints JSON lines straight to stdout.
 
-<!-- last-sync: 2026-09-21 -->
+<!-- last-sync: 2026-09-22 -->
